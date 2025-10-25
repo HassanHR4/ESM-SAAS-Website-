@@ -1,6 +1,11 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
+export const metadata = {
+  title: "Best School Management",
+  description:
+    "Learn why eSM is the best school management system in Pakistan with powerful features like biometric attendance, fee management, LMS, reports, and more.",
+};
 const blogPage = () => {
     const blog = {
         title: "Why eSM is the Best School Management System in Pakistan for 2025",
@@ -106,15 +111,6 @@ const blogPage = () => {
         ]
     };
     return (
-        <Head>
-            <title>Our Blogs</title>
-            <meta
-                name="description"
-                content="Get in touch with the ESM Software team for inquiries, support, or more information about our products and services."
-            />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="icon" href="/favicon.ico" />
-        </Head>,
         <div className='bg-gray-50'>
             <Header />
             <div

@@ -2,6 +2,11 @@ import Image from "next/image";
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
+export const metadata = {
+  title: "Transforming Education",
+  description:
+    "Learn why eSM is the best school management system in Pakistan with powerful features like biometric attendance, fee management, LMS, reports, and more.",
+};
 export default function Blog() {
   const blogData = [
     {
@@ -91,17 +96,9 @@ export default function Blog() {
   ];
 
   return (
-    <Head>
-                <title>Our Blogs</title>
-                <meta
-                    name="description"
-                    content="Get in touch with the ESM Software team for inquiries, support, or more information about our products and services."
-                />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>,
+    
     <div className='bg-gray-50'>
-    <Header />
+      <Header />
                 <div
                     className="relative h-[500px] flex items-center justify-center text-center text-white"
                     style={{
@@ -114,7 +111,7 @@ export default function Blog() {
     
                     {/* Content */}
                     <div className="relative z-10 px-6">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-4">Best School Management System: Transforming Education in the Digital Era</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-4">Transforming Education in the Digital Era</h1>
                         <p className="text-base md:text-lg max-w-2xl mx-auto">
                             {/* Optional subtitle text here */}
                         </p>

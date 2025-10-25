@@ -4,10 +4,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const NavLinks = [
-    { name: 'Home', href: '/EMS.html' },
-    { name: 'About', href: '/About.html' },
-    { name: 'Blog', href: '/Blog.html' },
-    { name: 'Contact', href: '/Contact.html' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'Contact', href: '/contact' },
 ];
 
 const Navbar = () => {
